@@ -636,7 +636,10 @@ function _xml_parse( dom ) {
       var href = response.href[0]
       var propstat = response.propstat[0]
       var prop = response.propstat[0].prop[0]
-      var getlastmodified = response.propstat[0].prop[0].getlastmodified[0]
+      var getlastmodified = 0
+      if ('undefined' !== typeof response.propstat[0].prop[0].getlastmodified) {
+          getlastmodified = response.propstat[0].prop[0].getlastmodified[0]
+      }
       var stat = response.propstat[0].status[0]
       var resource = {}
       resource.href = href._
