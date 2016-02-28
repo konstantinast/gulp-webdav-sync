@@ -11,3 +11,4 @@ test/assets/pkcs10/
 test/assets/private/
 test/assets/serial
 test/assets/serial.old
+/nbproject/
