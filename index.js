@@ -215,7 +215,7 @@ module.exports = function () {
       }
       if ( vinyl.isBuffer() || vinyl.isStream() ) {
         if ( _options.uselastmodified && times_are_comparable() ) {
-          if ( server_is_synchronized() && ctime_is_newer() ) {
+          if ( false === server_is_synchronized() && ctime_is_newer() ) {
             _put( target_url, vinyl, resume )
             return
           } else {
