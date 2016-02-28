@@ -1,7 +1,7 @@
 {
-  "name": "gulp-webdav-sync",
-  "version": "1.0.0",
-  "description": "Put files and folders on a WebDAV server. Deploy with gulp",
+  "name": "konstantinast-fork-gulp-webdav-sync",
+  "version": "1.0.2",
+  "description": "(Temporary fork with a fix) Put files and folders on a WebDAV server. Deploy with gulp",
   "repository": {
     "type": "git",
     "url": "https://github.com/millercl/gulp-webdav-sync.git"
